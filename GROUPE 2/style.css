@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(ressource/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 10%;
+    margin-right: 8%;
+    padding-top: 30px;
+}
+.logo img{
+    height: 30px;
+}
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.search-bar a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1c1c;
+    padding: 10px;
+}
+.search-bar button{
+    background-color: black;
+    border: none;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.search-bar button span{
+    color: rgb(153, 152, 152);
+}
+/* Reglage du grand texte */
+.box1 p{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+/* Et ainsi les reglages du paragraphe */
+.box2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box2 p{
+    color: #313131;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Reglage du bouton en bas du paragraphe */
+.box2 button{
+    background-color: black;
+    border: none;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box2 button span{
+    color: rgb(153, 152, 152);
+}
+/* Reglage du code img */
+.imgcode{
+    width: 83%;
+    height: 100%;
+}
+.section2{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+/* Reglage page blanc complet */
+.pied1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.ments1, .ments2 {
+    display: inline-block;
+    flex: 1;
+}
+.ments1 h1{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.ments1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.5px;
+    margin-bottom: 10px;
+    color: #4f4e4e;
+}
+
+.ments1 button{
+    background-color: black;
+    border: none;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ments1 button span{
+    color: rgb(153, 152, 152);
+}
+.ments2{
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    order: 1;
+}
+.ments2 img{
+    width: 475px;
+    height: auto;
+    /* margin-left: 150px; */
+    margin-top: 70px;
+}
+.pied2{
+    width: 100%;
+    /* height: 600px; */
+    height: 200px;
+    background-color: white;
+    display: flex;
+    height: auto;
+}
+.ments1{
+    width: 38%;
+    text-justify: auto;
+    margin: 110px 50px 0px 150px;
+    justify-content: start;
+    display: inline-block;
+    order: 2;
+}
+
+.blocontenue{
+    margin: 35px 100px 50px;
+    display: flex;
+    /* margin: 40px 120px; */
+    width: 85%;
+    height: auto;
+}
+.bloc1, .bloc2{
+    display: inline-block;
+    flex: 1;
+}
+.bloc1{
+    display: inline-block;
+}
+.bloc1 img{
+    margin-left: 50px;
+}
+.bloc2{
+    display: inline-block;
+    margin-left: 40%;
+}
+.bloc2 a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #4f4e4e;
+}
+#term{
+    margin-right: 10px;
+}
+@media screen and (min-width: 550px){
+    .pied1{
+        flex-direction: row;
+    }
+    .ments1, .ments2{
+        width: 50%;
+    }
+    .ments1{
+        order: 0;
+    }
+    .ments2{
+        order: 1;
+    }
+}
+
+
+
+
+
